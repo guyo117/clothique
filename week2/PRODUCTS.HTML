@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothique | Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Cloth<span>ique</span></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="#">Cart (0)</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2 class="page-title">Latest Arrivals</h2>
+        <div class="product-grid">
+            
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?q=80&w=600&auto=format&fit=crop" alt="Classic Black Denim" class="product-img">
+                <div class="product-title">Classic Black Denim</div>
+                <div class="product-price">$59.99</div>
+                <button class="btn" onclick="addToCart('Classic Black Denim')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?q=80&w=600&auto=format&fit=crop" alt="Signature Red Tee" class="product-img">
+                <div class="product-title">Signature Red Tee</div>
+                <div class="product-price">$24.99</div>
+                <button class="btn" onclick="addToCart('Signature Red Tee')">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?q=80&w=600&auto=format&fit=crop" alt="Dapper Leather Jacket" class="product-img">
+                <div class="product-title">Dapper Leather Jacket</div>
+                <div class="product-price">$129.99</div>
+                <button class="btn" onclick="addToCart('Dapper Leather Jacket')">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
